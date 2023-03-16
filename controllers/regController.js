@@ -45,7 +45,7 @@ const registerUser = async (req, res) => {
             }, process.env.JWT_SECRET
         )
         // Verification logic
-        const verificationLink = `https://shakh13.onrender.com/auth/verify-email/${token}`;
+        const verificationLink = `https://shakh14.onrender.com/auth/verify-email/${token}`;
         const mailOptions = {
             from: process.env.MAILRU_EMAIL,
             to: email,
